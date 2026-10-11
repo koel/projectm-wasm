@@ -14,7 +14,7 @@ You need Docker.
 
 The files land in `dist/`. Set `PROJECTM_VERSION` to build another projectM tag (default: `v4.1.8`).
 
-Each tag pushed to this repo publishes the two files as release assets.
+Each `v*` tag pushed to this repo publishes the two files as release assets and to npm as [`@koel-project/projectm-wasm`](https://www.npmjs.com/package/@koel-project/projectm-wasm). The package version is this wrapper's own; it bundles projectM v4.1.8.
 
 ## Using your own build
 

@@ -1,0 +1,22 @@
+{
+  "name": "@koel-project/projectm-wasm",
+  "version": "1.0.0",
+  "description": "projectM, the open-source MilkDrop visualizer, built to WebAssembly for Koel",
+  "license": "LGPL-2.1-only",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koel/projectm-wasm.git"
+  },
+  "files": [
+    "dist/koel_projectm.js",
+    "dist/koel_projectm.wasm"
+  ],
+  "exports": {
+    "./koel_projectm.js": "./dist/koel_projectm.js",
+    "./koel_projectm.wasm": "./dist/koel_projectm.wasm"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
